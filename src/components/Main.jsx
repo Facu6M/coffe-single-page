@@ -1,5 +1,23 @@
 import React from 'react'
 import styles from "../styles/Main.css"
+import banner from "../img/banner.jpg"
+import blog1 from "../img/blog-1.jpg"
+import blog2 from "../img/blog-2.jpg"
+import blog3 from "../img/blog-3.jpg"
+import cafeAustraliano from "../img/cafe-australiano.jpg"
+import cafeHelado from "../img/cafe-helado.jpg"
+import cafeIngles from "../img/cafe-ingles.jpg"
+import cafeIrish from "../img/cafe-irish.jpg"
+import cafeLiqeurs from "../img/cafe-liqueurs.jpg"
+import cafeViena from "../img/cafe-viena.jpg"
+import capuccino from "../img/capuchino-category.jpg"
+import expreso from "../img/expreso-category.jpg"
+import gallery1 from "../img/gallery1.jpg"
+import gallery2 from "../img/gallery2.jpg"
+import gallery3 from "../img/gallery3.jpg"
+import gallery4 from "../img/gallery4.jpg"
+import gallery5 from "../img/gallery5.jpg"
+import moca from "../img/moca-category.jpg"
 
 const Main = () => {
   return (
@@ -75,7 +93,7 @@ const Main = () => {
 				<div class="container-products">
 					<div class="card-product">
 						<div class="container-img">
-							<img src="/cafe-irish.jpg" alt="Cafe Irish" />
+							<img src={cafeIrish} alt="Cafe Irish" />
 							<span class="discount">-13%</span>
 							<div class="button-group">
 								<span>
@@ -107,7 +125,7 @@ const Main = () => {
 					<div class="card-product">
 						<div class="container-img">
 							<img
-								src="/cafe-ingles.jpg"
+								src={cafeIngles}
 								alt="Cafe incafe-ingles.jpg"
 							/>
 							<span class="discount">-22%</span>
@@ -141,8 +159,8 @@ const Main = () => {
 					<div class="card-product">
 						<div class="container-img">
 							<img
-								src="/cafe-australiano.jpg"
-								alt="Cafe Australiano"
+								src={cafeAustraliano}
+								alt="Cafe Australiano	"
 							/>
 							<div class="button-group">
 								<span>
@@ -173,7 +191,7 @@ const Main = () => {
 					</div>
 					<div class="card-product">
 						<div class="container-img">
-							<img src="/cafe-helado.jpg" alt="Cafe Helado" />
+							<img src={cafeHelado} alt="Cafe Helado" />
 							<div class="button-group">
 								<span>
 									<i class="fa-regular fa-eye"></i>
@@ -206,23 +224,23 @@ const Main = () => {
 
 			<section class="gallery">
 				<img
-					src="/gallery1.jpg"
+					src={gallery1}
 					alt="Gallery Img1"
 					class="gallery-img-1"
 				/><img
-					src="/gallery2.jpg"
+					src={gallery2}
 					alt="Gallery Img2"
 					class="gallery-img-2"
 				/><img
-					src="/gallery3.jpg"
+					src={gallery3}
 					alt="Gallery Img3"
 					class="gallery-img-3"
 				/><img
-					src="/gallery4.jpg"
+					src={gallery4}
 					alt="Gallery Img4"
 					class="gallery-img-4"
 				/><img
-					src="/gallery5.jpg"
+					src={gallery5}
 					alt="Gallery Img5"
 					class="gallery-img-5"
 				/>
@@ -234,7 +252,7 @@ const Main = () => {
 				<div class="container-products">
 					<div class="card-product">
 						<div class="container-img">
-							<img src="/cafe-irish.jpg" alt="Cafe Irish" />
+							<img src={cafeIrish} alt="Cafe Irish" />
 							<span class="discount">-13%</span>
 							<div class="button-group">
 								<span>
@@ -266,7 +284,7 @@ const Main = () => {
 					<div class="card-product">
 						<div class="container-img">
 							<img
-								src="/cafe-ingles.jpg"
+								src={cafeIngles}
 								alt="Cafe incafe-ingles.jpg"
 							/>
 							<span class="discount">-22%</span>
@@ -299,7 +317,7 @@ const Main = () => {
 					</div>
 					<div class="card-product">
 						<div class="container-img">
-							<img src="/cafe-viena.jpg" alt="Cafe Viena" />
+							<img src={cafeViena} alt="Cafe Viena" />
 							<span class="discount">-30%</span>
 							<div class="button-group">
 								<span>
@@ -330,7 +348,7 @@ const Main = () => {
 					</div>
 					<div class="card-product">
 						<div class="container-img">
-							<img src="/cafe-liqueurs.jpg" alt="Cafe Liqueurs" />
+							<img src={cafeLiqeurs} alt="Cafe Liqueurs" />
 							<div class="button-group">
 								<span>
 									<i class="fa-regular fa-eye"></i>
@@ -367,7 +385,7 @@ const Main = () => {
 				<div class="container-blogs">
 					<div class="card-blog">
 						<div class="container-img">
-							<img src="/blog-1.jpg" alt="Imagen Blog 1" />
+							<img src={blog1} alt="Imagen Blog 1" />
 							<div class="button-group-blog">
 								<span>
 									<i class="fa-solid fa-magnifying-glass"></i>
@@ -392,7 +410,7 @@ const Main = () => {
 					</div>
 					<div class="card-blog">
 						<div class="container-img">
-							<img src="/blog-2.jpg" alt="Imagen Blog 2" />
+							<img src={blog2} alt="Imagen Blog 2" />
 							<div class="button-group-blog">
 								<span>
 									<i class="fa-solid fa-magnifying-glass"></i>
@@ -417,7 +435,7 @@ const Main = () => {
 					</div>
 					<div class="card-blog">
 						<div class="container-img">
-							<img src="/blog-3.jpg" alt="Imagen Blog 3" />
+							<img src={blog3} alt="Imagen Blog 3" />
 							<div class="button-group-blog">
 								<span>
 									<i class="fa-solid fa-magnifying-glass"></i>
